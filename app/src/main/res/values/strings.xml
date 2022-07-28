@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">login_signup_Application</string>
+    <string name="please_enter_email">please_enter_email</string>
+    <string name="please_enter_password">please_enter_password</string>
+    <string name="password_length">password_length</string>
+    <string name="login_successfull">login_successfull</string>
+    <string name="please_enter_name">please_enter_name</string>
+    <string name="enter_valid_email">enter_valid_email</string>
+    <string name="enter_valid_number">enter_valid_number</string>
+    <string name="enter_password">enter_password</string>
+    <string name="other">other</string>
+    <string name="signup_sucessfully">signup_sucessfully</string>
+</resources>

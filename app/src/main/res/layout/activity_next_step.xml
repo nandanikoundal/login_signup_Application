@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".next_step">
+
+
+    <EditText
+        android:id="@+id/TextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:layout_marginTop="0dp"
+        android:inputType="textPersonName"
+        android:text="Enter Your Name" />
+
+    <EditText
+        android:id="@+id/TextEmailAddress2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:hint="enter your email"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="enter your phone number"
+        android:maxLength="10"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/TextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:hint="enter your password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text="How you want to be addressed?"
+        />
+
+    <RadioGroup
+        android:id="@+id/Gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="100dp">
+
+        <RadioButton
+            android:id="@+id/Male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="male" />
+
+        <RadioButton
+            android:id="@+id/Female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="female" />
+
+        <RadioButton
+            android:id="@+id/other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="other" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etOtherName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="specify others" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="signup" />
+</LinearLayout>

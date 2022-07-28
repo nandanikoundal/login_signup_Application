@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/LogIn"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:gravity="left"
+        android:inputType="textPersonName"
+        android:text="login"
+        android:layout_marginBottom="90dp"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="enter email"
+        android:inputType="textEmailAddress" />
+
+
+
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter password"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/forgetpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="right"
+        android:text="forget password" />
+
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:text="login" />
+
+
+
+
+</LinearLayout>
